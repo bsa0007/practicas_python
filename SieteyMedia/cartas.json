@@ -1,0 +1,47 @@
+{
+  "cartas": [
+    { "palo": "oros", "numero": 1, "valor": 1 },
+    { "palo": "oros", "numero": 2, "valor": 2 },
+    { "palo": "oros", "numero": 3, "valor": 3 },
+    { "palo": "oros", "numero": 4, "valor": 4 },
+    { "palo": "oros", "numero": 5, "valor": 5 },
+    { "palo": "oros", "numero": 6, "valor": 6 },
+    { "palo": "oros", "numero": 7, "valor": 7 },
+    { "palo": "oros", "numero": 10, "valor": 0.5 },
+    { "palo": "oros", "numero": 11, "valor": 0.5 },
+    { "palo": "oros", "numero": 12, "valor": 0.5 },
+
+    { "palo": "copas", "numero": 1, "valor": 1 },
+    { "palo": "copas", "numero": 2, "valor": 2 },
+    { "palo": "copas", "numero": 3, "valor": 3 },
+    { "palo": "copas", "numero": 4, "valor": 4 },
+    { "palo": "copas", "numero": 5, "valor": 5 },
+    { "palo": "copas", "numero": 6, "valor": 6 },
+    { "palo": "copas", "numero": 7, "valor": 7 },
+    { "palo": "copas", "numero": 10, "valor": 0.5 },
+    { "palo": "copas", "numero": 11, "valor": 0.5 },
+    { "palo": "copas", "numero": 12, "valor": 0.5 },
+
+    { "palo": "espadas", "numero": 1, "valor": 1 },
+    { "palo": "espadas", "numero": 2, "valor": 2 },
+    { "palo": "espadas", "numero": 3, "valor": 3 },
+    { "palo": "espadas", "numero": 4, "valor": 4 },
+    { "palo": "espadas", "numero": 5, "valor": 5 },
+    { "palo": "espadas", "numero": 6, "valor": 6 },
+    { "palo": "espadas", "numero": 7, "valor": 7 },
+    { "palo": "espadas", "numero": 10, "valor": 0.5 },
+    { "palo": "espadas", "numero": 11, "valor": 0.5 },
+    { "palo": "espadas", "numero": 12, "valor": 0.5 },
+
+    { "palo": "bastos", "numero": 1, "valor": 1 },
+    { "palo": "bastos", "numero": 2, "valor": 2 },
+    { "palo": "bastos", "numero": 3, "valor": 3 },
+    { "palo": "bastos", "numero": 4, "valor": 4 },
+    { "palo": "bastos", "numero": 5, "valor": 5 },
+    { "palo": "bastos", "numero": 6, "valor": 6 },
+    { "palo": "bastos", "numero": 7, "valor": 7 },
+    { "palo": "bastos", "numero": 10, "valor": 0.5 },
+    { "palo": "bastos", "numero": 11, "valor": 0.5 },
+    { "palo": "bastos", "numero": 12, "valor": 0.5 }
+  ]
+}
