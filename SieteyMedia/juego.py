@@ -1,6 +1,6 @@
 import json
 import random
-import os   # 👈 añade este import
+import os   
 
 # Ruta absoluta al archivo cartas.json, en la misma carpeta que este script
 ruta = os.path.join(os.path.dirname(__file__), "cartas.json")
@@ -12,7 +12,7 @@ with open(ruta, "r", encoding="utf-8") as f:
 random.shuffle(baraja)
 
 puntos = 0.0
-print("🎲 Bienvenido al juego de Siete y Media\n")
+print(" Bienvenido al juego de Siete y Media\n")
 
 while puntos < 7.5 and baraja:
     carta = baraja.pop()
@@ -22,17 +22,17 @@ while puntos < 7.5 and baraja:
     print(f"Total de puntos: {puntos}\n")
 
     if puntos == 7.5:
-        print("🎉 ¡Has ganado con siete y media!")
+        print(" ¡Has ganado con siete y media!")
         break
     elif puntos > 7.5:
-        print("💥 Te pasaste de siete y media. Pierdes.")
+        print(" Te pasaste de siete y media. Pierdes.")
         break
     else:
         seguir = input("¿Quieres otra carta? (s/n): ").strip().lower()
         while seguir not in ("s", "n"):
             seguir = input("Responde con 's' o 'n': ").strip().lower()
         if seguir == "n":
-            print(f"🛑 Te plantas con {puntos} puntos.")
+            print(f" Te plantas con {puntos} puntos.")
             break
 
 if not baraja and puntos < 7.5:
